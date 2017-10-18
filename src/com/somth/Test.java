@@ -3,12 +3,16 @@ package com.somth;
 public class Test {
 
     public static void main(String[] args) {
-        /*Author a[] = new Author[2];
+
+      Employee e1 = new Employee(1, "first","last", 100);
+      System.out.println(e1);
+
+        Author a[] = new Author[2];
         a[0] = new Author("Dude", "mail", 'm');
         a[1] = new Author("Babe", "gmail", 'f');
-        Book b1 = new Book("fags", a, 10, 1);
+        Book b1 = new Book("B One", a, 10, 1);
         System.out.println(b1);
-        System.out.println(b1.getAuthorNames());*/
+        System.out.println(b1.getAuthorNames());
 /*
         MyPoint mp1 = new MyPoint(0,0);
         MyPoint mp2 = new MyPoint(1,0);
