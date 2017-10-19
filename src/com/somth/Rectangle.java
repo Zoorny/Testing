@@ -34,7 +34,7 @@ public class Rectangle {
     }
 
     public double getPerimetr(){
-        return 2*length + 2* width;
+        return 2*(length + width);
     }
 
     @Override

@@ -48,12 +48,12 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "name='" + name + '\'' +
+        return "Book[" +
+                "name=" + name +
                 ", authors=" + Arrays.toString(authors) +
                 ", price=" + price +
                 ", qty=" + qty +
-                '}';
+                ']';
     }
 
     public String getAuthorNames(){

@@ -48,11 +48,11 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Employee[" +
                 "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", name=" + firstName + " "
+                + lastName +
                 ", salary=" + salary +
-                '}';
+                ']';
     }
 }

@@ -36,9 +36,14 @@ public class MyComplex {
 
     @Override
     public String toString() {
-        return "(" +
+        if (imag >= 0)
+            return "(" +
                 real +
                 '+' + imag +
+                "i)";
+        else return "(" +
+                real +
+                '-' + -imag +
                 "i)";
     }
 
